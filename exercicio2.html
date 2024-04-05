@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario exercicio 2</title>
+</head>
+<body>
+    <header>
+        <h1>Formulario exercicio 2: Select e Option</h1>
+    </header>
+
+    <main>
+        <section>
+            <form method="post">
+                <br><br>
+                <label>Selecione seu país de origem:</label>
+                <select name="pais" id="pais">
+                    <optgroup label="America do Sul">
+                    <option value="BR">Brasil</option>
+                    </optgroup>
+                    <optgroup label="America do Norte"></optgroup>
+                    <option value="USA">Estados Unidos</option>
+                    <option value="CA">Canadá</option>
+                    </optgroup>
+                    <optgroup label="Europa">
+                    <option value="AL">Alemanha</option>
+                    </optgroup>
+                    <optgroup label="Asia">
+                    <option value="JP">Japão</option>
+                    </optgroup>
+                </select>
+                <br><br>
+                <label>Comentários e feedbacks:</label>
+                    <br>
+                    <textarea name="coment" id="coment" cols="80" rows="20"></textarea>
+                    <br><br>
+                    <legend>Exercicio 3:</legend>
+                    <br><br>
+                <label> idade: </label>
+                <input type="number" name="idade" id="idade" step="1" min="0" max="100">
+                <br><br>
+                <label>Data de nascimento:</label>
+                <input type="date" name="data" id="data">
+                <br><br>
+                </fieldset> 
+                <input type="submit" value="Enviar">
+                </form>
+            </section>
+        </main>
+    <hr>
+    <footer>
+        <center>
+            &copy; Formulário de envio.
+        </center>
+    </footer>
+    </body>
+    </html>
